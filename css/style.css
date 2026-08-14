@@ -7,4 +7,42 @@ body {
 .pricing-table {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
+}
+
+.plan {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan ul {
+    list-style: none;
+    padding: 1px;
+    text-align: left;
+}
+
+.plan li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.plan button {
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: #094c8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.plan.featured {
+    border: 2px solid #2ecc71;
+    transform: scale(1.05);
 }
